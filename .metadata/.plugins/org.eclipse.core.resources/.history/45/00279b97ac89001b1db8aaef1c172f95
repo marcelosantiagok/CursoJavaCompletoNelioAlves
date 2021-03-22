@@ -1,0 +1,12 @@
+package util;
+
+public class CurrencyConverter {
+	
+	public static final double IOF = 6.0; 
+	
+	public double dollatToReal(double dollarPrice, double dollarResult) {
+		double calc = dollarPrice * dollarResult / 100;
+		return calc = calc + (calc/IOF);
+	}
+	
+}

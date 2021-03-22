@@ -1,0 +1,52 @@
+package application;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Locale;
+import java.util.Scanner;
+
+import entities.Employee;
+
+
+public class Program {
+
+	public static void main(String[] args) {
+	
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		System.out.print("How many employees will be registered? ");
+		int n = sc.nextInt();
+		Employee [] vect = new Employee[n];
+		
+		List<Integer> listId = new ArrayList<>();
+		List<String> listName = new ArrayList<>();
+		List<Double> listSalary = new ArrayList<>();
+		
+		for(int i=0;i<vect.length;i++) {
+			System.out.printf("Employee #%d: %n",i+1);
+			System.out.print("Id: ");
+			int id = sc.nextInt();
+			listId.add(id);
+			System.out.print("Name: ");
+			sc.nextLine();
+			String name = sc.nextLine();
+			listName.add(name);
+			System.out.print("Salary: ");
+			double salary = sc.nextDouble();
+			listSalary.add(salary);
+		}
+		
+		System.out.print("Enter the employee id that will have salary increase : ");
+		int x = sc.nextInt();
+		int cont = 0;
+		for(Integer obj: listId) {
+			if(listId != x) {
+				
+			}
+		}
+		
+		
+		sc.close();
+	}
+
+}

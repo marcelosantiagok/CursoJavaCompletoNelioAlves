@@ -1,0 +1,12 @@
+package entities;
+
+import java.util.List;
+
+public class Employee {
+	
+	
+	private Integer id;
+	private String id;
+	private Double salary;
+	
+}

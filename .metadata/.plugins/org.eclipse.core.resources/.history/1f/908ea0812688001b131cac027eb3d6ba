@@ -1,0 +1,13 @@
+package application;
+
+public class Program {
+
+	public static void main(String[] args) {
+
+		double xA, xB, xC, Ya, Yb, Yc;
+		
+		System.out.println("Enter the measures of triangle X: ");
+
+	}
+
+}
