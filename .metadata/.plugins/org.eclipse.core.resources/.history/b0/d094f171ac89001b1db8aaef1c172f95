@@ -1,9 +1,0 @@
-package util;
-
-public class CurrencyConverter {
-	
-	public double dollatToReal(double dollarPrice, double dollarResult) {
-		double calc = dollarPrice * dollarResult / 100;
-	}
-	
-}
